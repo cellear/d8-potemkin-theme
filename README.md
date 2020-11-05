@@ -1,4 +1,5 @@
-D8 Potemkin Theme
+*D8 Potemkin Theme*
+
 Fake it till you make it!  Literally.  This theme allows you to very quickly create a professional-looking theme, strictly for demo purposes
 
 The phrase "Potemkin Village" comes from this story:
