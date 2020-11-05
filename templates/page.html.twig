@@ -1,0 +1,54 @@
+<h3>-----------------------------------  Potemkin Theme page.html.twig - BEGIN</h3>
+
+{% set main_menu = page.primary_menu|render %}
+{% set secondary_menu = page.secondary_menu|render %}
+
+      {% if page.header %}
+
+<br><br>page.header:          {{ page.header }}
+
+      {% endif %}
+
+  {% if main_menu or secondary_menu %}
+
+<br><br>Main Menu:        {{ main_menu }}
+<br><br>Secondary Menu:        {{ secondary_menu }}
+
+  {% endif %}
+
+<br><br>Breadcrumb:          {{ page.breadcrumb }}
+
+
+          {% if title %}
+<br><br>Title: {{ title }}
+          {% endif %}
+
+          {% if tabs %}
+<br><br>tabs: {{ tabs }}
+
+          {% endif %}
+
+          {% if action_links %}
+            <br><br>action links: {{ action_links }}
+
+          {% endif %}
+
+<br><br>page.content:
+          {{ page.content }}
+
+      {% if page.sidebar_first|render %}
+<br><br>page.sidebar_first:          {{ page.sidebar_first }}
+      {% endif %}
+
+      {% if page.sidebar_second|render %}
+
+<br><br>page.sidebar_second:          {{ page.sidebar_second }}
+      {% endif %}
+
+  {% if page.footer|render %}
+
+<br><br>Footer:
+        {{ page.footer }}
+  {% endif %}
+
+<h3>----------------------------------- Potemkin Theme page.html.twig - END</h3>

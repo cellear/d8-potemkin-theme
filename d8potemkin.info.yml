@@ -1,0 +1,9 @@
+name: d8Potemkin
+type: theme
+description: 'It looks like a nice theme as you go zooming by without stopping'
+package: Core
+# version: VERSION
+# core: 8.x
+
+version: '8.x-1.2'
+core: '8.x'
